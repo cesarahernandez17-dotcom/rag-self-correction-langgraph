@@ -1,0 +1,8 @@
+langgraph>=1.0.8
+langchain-openai
+langchain-community
+faiss-cpu
+tiktoken
+openai
+sentence-transformers
+chromadb
