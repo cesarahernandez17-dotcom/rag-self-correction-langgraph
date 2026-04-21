@@ -1,8 +1,15 @@
-langgraph>=1.0.8
-langchain-openai
-langchain-community
-faiss-cpu
-tiktoken
-openai
-sentence-transformers
-chromadb
+# Core AI Frameworks
+langchain>=0.1.0
+langchain-openai>=0.0.8
+langgraph>=0.0.30
+
+# Vector Database & Retrieval
+faiss-cpu>=1.7.4
+tiktoken>=0.5.2
+
+# Environment & Utilities
+python-dotenv>=1.0.0
+typing-extensions>=4.9.0
+
+# Optional: Visualization (if you use langgraph's visualizer)
+grandalf>=0.8
